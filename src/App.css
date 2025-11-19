@@ -1,0 +1,21 @@
+/* Removed all default Vite styles (max-width, centering, etc.) 
+  The component-based styling in App.jsx (using Tailwind classes) 
+  will now correctly manage the layout and appearance.
+*/
+#root {
+  /* This is intentionally minimal to allow Tailwind to take full control */
+  min-height: 100vh;
+}
+
+/* Remove all unused styles like .logo, .card, etc. */
+.logo, .logo.react, .card, .read-the-docs {
+  /* Empty */
+}
+
+@keyframes logo-spin {
+  /* Empty */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Empty */
+}
